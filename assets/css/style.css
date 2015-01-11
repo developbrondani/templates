@@ -1,0 +1,221 @@
+.navbar {
+	border-radius: 0px;
+  background-color: #3F3F3F;
+  border-bottom: 0px;
+}
+
+.navbar-default {
+  height: 60px;
+  border-top: 2px rgba(78,205,196,0.8);
+}
+
+.navbar-nav>li>a {
+  padding: 0;
+}
+
+.navbar-default li a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  min-width: 100px;
+  text-align: center;
+  background-color: transparent;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+.navbar-default .navbar-nav>li>a {
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
+  border-bottom: 2px solid #19B5FE;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #19B5FE;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus ,
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  border-bottom: 2px solid #19B5FE;
+  background-color: transparent;
+  color:  #19B5FE;
+}
+
+.navbar-toggle {
+  border-radius: 0;
+  border: 0px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 60px;
+  background-image: url(/images/grey.png);
+  font-family: 'Lato', sans-serif;
+  background-color: #FAFAFA;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: transparent;
+
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #6C7A89;
+}
+
+.head-title h2 {
+  margin-top: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+}
+.head-title h4 {
+  margin-top: -5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.navbar-brand {
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  line-height: 60px;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.navbar-default .navbar-brand .color {
+  color: #19B5FE;
+}
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
+}
+
+/*
+Header Wrap
+*/
+#headerwrap {
+  background-color: #19B5FE;
+  padding-top: 10px;
+}
+#headerwrap h1 {
+  font-weight: 500;
+}
+#headerwrap h1, #headerwrap h2, #headerwrap h3, #headerwrap h4, #headerwrap h5, #headerwrap h6 {
+  color: #FFF;
+}
+
+.downloadwrap {
+  background-color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+a.button {
+  position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    display: block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  text-align: center;
+  
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+ 
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+ 
+height:54px;
+line-height: 54px;
+vertical-align: middle;
+font-size: 1.3em;
+
+  font-family: 'Lato', sans-serif;
+cursor:pointer;
+ 
+    text-shadow: none;
+}
+
+a.button i {
+  margin-right: 5px;
+}
+ 
+a.button:active {
+   -webkit-transform: translate(0, 3px);
+  -moz-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+}
+
+a.download-small{
+  color: #2CA9E1;
+  border: 1px solid #2CA9E1;
+}
+ 
+a.download-small:active, a.download-small:hover{ 
+  color: #FFF;
+  background-color: #2CA9E1;
+}
+
+a.github-small{
+ -webkit-box-shadow: 0px 6px 0px #2e2e2e;
+    -moz-box-shadow: 0px 6px 0px #2e2e2e;
+    box-shadow: 0px 6px 0px #2e2e2e;
+}
+a.github-small{background:#3F3F3F;}
+ 
+a.github-small:active{ -webkit-box-shadow: 0px 2px 0px #2e2e2e;
+    -moz-box-shadow: 0px 2px 0px #2e2e2e;
+    box-shadow: 0px 2px 0px #2e2e2e;
+}
+
+a.demo-small{
+  color:#26A65B;
+  border: 1px solid #26A65B;
+
+}
+ 
+a.demo-small:active, a.demo-small:hover{ 
+
+  color: #FFF;
+  background-color: #26A65B;
+}
+.themes-info  {
+  padding-top: 50px;
+}
+.themes-info .row {
+  text-align: center;
+}
+
+
+.themes-info .row .icon {
+  border: 1px solid #EEE;
+}
