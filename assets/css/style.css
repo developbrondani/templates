@@ -271,7 +271,7 @@ Header Wrap
     top: 0;
     z-index: -99;
     background-color: #FFF;
-    background-size: cover cover;
+    background-size: 100%;
     background-image: url(/assets/img/index/bg.png);
 }
 #headerwrap.cleanpm .intro-bg {
