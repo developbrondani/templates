@@ -271,6 +271,7 @@ Header Wrap
     top: 0;
     z-index: -99;
     background-color: #FFF;
+    background-size: cover cover;
     background-image: url(/assets/img/index/bg.png);
 }
 #headerwrap.cleanpm .intro-bg {
@@ -302,18 +303,21 @@ Header Wrap
     margin-bottom: -28px;
     left: 50%;
     margin-left: -270px;
+    z-index: 8000;
 }
 .intro.ipad {
     bottom: 0;
     margin-bottom: -30px;
     left: 50%;
     margin-left: -460px;
+    z-index: 7000;
 }
 .intro.imac {
     bottom: 0;
     left: 50%;
     margin-left: -320px;
     margin-bottom: -40px;
+    z-index: 5000;
 }
 .intro.flat-admin {
     bottom: 0;
