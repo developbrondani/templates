@@ -270,7 +270,7 @@ Header Wrap
     height: 100%;
     top: 0;
     z-index: -99;
-    background-color: #19B5FE;
+    background-color: #FFF;
     background-image: url(/assets/img/index/bg.png);
 }
 #headerwrap.cleanpm .intro-bg {
@@ -419,6 +419,15 @@ a.demo-small:active, a.demo-small:hover {
 }
 .templates-thumbnail .info h5 {
     font-size: 1.2em;
+}
+
+.float-left{
+    float: left;
+}
+.profile {
+    margin-right: 20px;
+    width: 80px;
+    height: auto;
 }
 /* Large desktops and laptops */
 
