@@ -93,7 +93,21 @@ a:hover {
 .navbar-toggle {
     border-radius: 0;
     border: 0px;
+    color: #FFF;
+
 }
+
+
+.navbar-collapse {
+    border-top: 0px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  color: #333;
+  background-color: transparent;
+}
+
 .navbar-default .navbar-brand {
     line-height: 50px;
     font-weight: 500;
@@ -513,9 +527,9 @@ a.demo-small:active, a.demo-small:hover {
         margin-bottom: 0px;
     }
 
-#headerwrap .logo h1 {
-    margin-top: -2px;
-}
+    #headerwrap .logo h1 {
+        margin-top: -2px;
+    }
 
 
     .container.theme-info .info {
@@ -526,6 +540,8 @@ a.demo-small:active, a.demo-small:hover {
     .container.theme-info div {
         text-align: center;
     }
+
+    
 }
 /* Landscape phones and smaller */
 
