@@ -272,13 +272,13 @@ Header Wrap
     z-index: -99;
     background-color: #FFF;
     background-size: cover;
-    background-image: url(/assets/img/index/bg.png);
+    background-image: url(/assets/img/index/bg.jpg);
 }
 #headerwrap.cleanpm .intro-bg {
     background-image: url(/assets/img/cleanpm/bg.png);
 }
 #headerwrap.flat-admin .intro-bg {
-    background-image: url(/assets/img/flat-admin/bg.png);
+    background-image: url(/assets/img/flat-admin/bg.jpg);
 }
 #headerwrap .logo .line {
     height: 4px;
