@@ -294,6 +294,9 @@ Header Wrap
 #headerwrap.flat-admin .intro-bg {
     background-image: url(/assets/img/flat-admin/bg.jpg);
 }
+#headerwrap.flat-admin-v2 .intro-bg {
+    background-image: url(/assets/img/flat-admin/bg-v2.jpg);
+}
 #headerwrap .logo .line {
     height: 4px;
     border-radius: 2px;
